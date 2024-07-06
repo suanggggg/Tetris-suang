@@ -5,10 +5,9 @@
 		"window_height":	720
 	},
 	"account":	{
-		"current_username":	"suang",
-		"current_highest_score":	5500,
+		"current_username":	"",
+		"current_highest_score":	0,
 		"account_information":	{
-			"suang":	5500
 		}
 	},
 	"player":	{
@@ -22,9 +21,9 @@
 		}
 	},
 	"block":	{
-		"block_type":	4,
-		"board_height":	15,
-		"speed":	3
+		"block_type":	0,
+		"board_height":	20,
+		"speed":	1
 	},
 	"control":	{
 		"moveleft":	97,
