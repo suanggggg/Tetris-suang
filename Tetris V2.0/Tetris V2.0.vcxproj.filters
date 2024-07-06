@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\cJSON">
+      <UniqueIdentifier>{570c0569-f806-43f8-87b1-f1d17d98219e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\manager">
+      <UniqueIdentifier>{fd04d819-e465-42ce-9147-1ea1d68bff55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\scene">
+      <UniqueIdentifier>{2d82f8e3-2031-4ae0-bed3-90ee83a133cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\scene">
+      <UniqueIdentifier>{e816d993-adb3-47a9-95f6-a02739d22514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\manager">
+      <UniqueIdentifier>{75fa5d17-93c1-44da-b46f-41a1b6529a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\player">
+      <UniqueIdentifier>{2c444f75-1d7b-4fe1-a6bf-b2ca14bf88d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\block">
+      <UniqueIdentifier>{41f78c19-c5d5-4463-842b-8ed2ddcf829d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\block">
+      <UniqueIdentifier>{5d7798a6-aabb-41b9-bafa-50e1e4338d10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_scene.cpp">
+      <Filter>源文件\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="game_manager.cpp">
+      <Filter>源文件\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_manager.cpp">
+      <Filter>源文件\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="selector_scene.cpp">
+      <Filter>源文件\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="game_scene.cpp">
+      <Filter>源文件\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="leaderboard_scene.cpp">
+      <Filter>源文件\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="setting_scene.cpp">
+      <Filter>源文件\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>源文件\block</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\cJSON\cJSON.c">
+      <Filter>源文件\cJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="input_scene.cpp">
+      <Filter>源文件\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="tetromino.cpp">
+      <Filter>源文件\block</Filter>
+    </ClCompile>
+    <ClCompile Include="control.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="manager.h">
+      <Filter>头文件\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="game_manager.h">
+      <Filter>头文件\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_manager.h">
+      <Filter>头文件\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_manager.h">
+      <Filter>头文件\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="atlas.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="game_scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="leaderboard_scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="selector_scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="setting_scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="player_type.h">
+      <Filter>头文件\player</Filter>
+    </ClInclude>
+    <ClInclude Include="config_manager.h">
+      <Filter>头文件\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>头文件\block</Filter>
+    </ClInclude>
+    <ClInclude Include="block_type.h">
+      <Filter>头文件\block</Filter>
+    </ClInclude>
+    <ClInclude Include="input_scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="control.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tetromino.h">
+      <Filter>头文件\block</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Release\resources\icon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

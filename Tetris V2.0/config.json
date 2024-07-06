@@ -1,0 +1,37 @@
+{
+	"basic":	{
+		"window_title":	"Tetris",
+		"window_width":	1280,
+		"window_height":	720
+	},
+	"account":	{
+		"current_username":	"suang",
+		"current_highest_score":	5500,
+		"account_information":	{
+			"suang":	5500
+		}
+	},
+	"player":	{
+		"peashooter":	{
+			"normal_attack_interval":	0.5,
+			"skill_energy":	100
+		},
+		"sunflower":	{
+			"normal_attack_interval":	0.5,
+			"skill_energy":	100
+		}
+	},
+	"block":	{
+		"block_type":	4,
+		"board_height":	15,
+		"speed":	3
+	},
+	"control":	{
+		"moveleft":	97,
+		"moveright":	100,
+		"movedown":	115,
+		"rotate_R":	1073741903,
+		"rotate_L":	1073741904,
+		"rotate_2":	1073741905
+	}
+}
